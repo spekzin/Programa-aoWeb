@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Programacao Web - Turma A</title>
 </head>
+
 <body>
     <h1>Lamborghini</h1>
     <div id="aventador">
@@ -14,11 +16,39 @@
     </div>
 
     <div id="caracteristicas">
-        <input type="text" placeholder="Ano De Fabricação"   id="anoDaFabricacao">
-        <input type="text" placeholder="Cor" id="Cor">
-        <input type="text" placeholder="Potência" id="potencia">
-        <input type="text" placeholder="Modelo" id="Modelo">
-        
+        <select id="Ano" required>
+            <option value="">Ano de Fabricação</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+
+        </select>
+
+        <select id="Cor" required>
+            <option value="">Cor</option>
+            <option value="Roxo">Roxo</option>
+            <option value="Verde">Verde</option>
+            <option value="Preto">Preto</option>
+            <option value="Branco">Branco</option>
+
+
+        </select>
+
+
+        <select id="Modelo" required>
+            <option value="">Modelo</option>
+            <option value="Aventador">Aventador</option>
+            <option value="Urus">Urus</option>
+            <option value="SVJ">SVJ</option>
+            <option value="Gallardo">Gallardo</option>
+
+        </select>
+
     </div>
+
+            <button id="Confirmar" placeholder="Confirmar">Confimar Seleção</button>
 </body>
+
 </html>
